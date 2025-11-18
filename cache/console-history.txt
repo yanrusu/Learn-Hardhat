@@ -1,0 +1,4 @@
+(await token.totalSupply()).toString()
+const token = await ethers.getContractAt("Token", "0xaa8fdb72a87D552dBA13b8Acb1FB8a8f3A410304");
+(await token.totalSupply()).toString()
+const token = await ethers.getContractAt("Token", "0xaa8fdb72a87D552dBA13b8Acb1FB8a8f3A410304");
