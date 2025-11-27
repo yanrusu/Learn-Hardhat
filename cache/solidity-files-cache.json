@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/iansu/Program/Visual Studio Code/HardHat/Learn HadHat/contracts/token.sol": {
+    "/Users/iansu/Program/Visual Studio Code/HardHat/Learn HardHat/contracts/token.sol": {
       "lastModificationDate": 1761552068311,
       "contentHash": "eb282a1407d187aff9cf864339e0b5dd",
       "sourceName": "contracts/token.sol",
@@ -35,6 +35,42 @@
       ],
       "artifacts": [
         "Token"
+      ]
+    },
+    "/Users/iansu/Program/Visual Studio Code/HardHat/Learn HardHat/contracts/checkaddr.sol": {
+      "lastModificationDate": 1764230307980,
+      "contentHash": "ec20ebb99c95975f883736514ea6e2dc",
+      "sourceName": "contracts/checkaddr.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CheckAddr"
       ]
     }
   }

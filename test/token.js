@@ -22,7 +22,7 @@ describe("Token contract", function () {
 
     const ownerBalance = await hardhatToken.balanceOf(owner.address);
     expect(await hardhatToken.totalSupply()).to.equal(ownerBalance);
-    console.log(hardhatToken.address);
+    console.log(await hardhatToken.getAddress());
   });
 
   it("Should transfer tokens between accounts", async function() {
