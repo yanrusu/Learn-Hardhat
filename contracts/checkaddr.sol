@@ -10,12 +10,3 @@ contract CheckAddr {
     }
 }
 
-// contract CheckAddr {
-//     function isContract(address addr) public view returns (bool) {
-//         uint32 size;
-//         assembly {
-//             size := extcodesize(addr)
-//         }
-//         return (size > 0);
-//     }
-// }
