@@ -108,6 +108,42 @@
       "artifacts": [
         "Hash"
       ]
+    },
+    "/Users/iansu/Program/Visual Studio Code/HardHat/Learn HardHat/contracts/abidecode.sol": {
+      "lastModificationDate": 1767087065390,
+      "contentHash": "a417560501f94a9a34f3765a9f8c031f",
+      "sourceName": "contracts/abidecode.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Decode"
+      ]
     }
   }
 }
