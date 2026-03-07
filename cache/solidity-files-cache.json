@@ -513,8 +513,8 @@
       ]
     },
     "/Users/iansu/Program/Visual Studio Code/HardHat/Learn HardHat/contracts/SimpleBank_1.sol": {
-      "lastModificationDate": 1771836011077,
-      "contentHash": "ad5594e11011a2d39b8dc1b49f1e31cb",
+      "lastModificationDate": 1772443021642,
+      "contentHash": "a28b8db776045eae84ef6023edf0dce4",
       "sourceName": "contracts/SimpleBank_1.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -551,8 +551,8 @@
       ]
     },
     "/Users/iansu/Program/Visual Studio Code/HardHat/Learn HardHat/contracts/ERC20_with_Credentials.sol": {
-      "lastModificationDate": 1771836032608,
-      "contentHash": "54eb4e8e8bdbdb6063405d27f909133b",
+      "lastModificationDate": 1772443237386,
+      "contentHash": "422c6433994e8156af742ac8c933446d",
       "sourceName": "contracts/ERC20_with_Credentials.sol",
       "solcConfig": {
         "version": "0.8.20",

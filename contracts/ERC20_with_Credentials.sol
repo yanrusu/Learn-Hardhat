@@ -61,16 +61,19 @@ contract ERC20_with_Credentials{
         return true;
     }
 
-    function mint(address to, uint256 amount) external {
+    function mint(address to, uint256 amount) external { 
+        // 權限
         totalSupply_ += amount;
         _balanceOf[to] += amount;
         emit Mint(address(this), to, amount);
     }
 
     function burn(address from, uint256 amount) external {
-        //require(_balanceOf[from]>=amount,"insuffet"insufficient bToken")
+        require(_balanceOf[from]>=amount,"insufficient bToken");
+        // 權限
         totalSupply_ -= amount;
         _balanceOf[from] -= amount;
+        // 負數會報錯
         emit Burn(from, address(0),amount);
     }
     
