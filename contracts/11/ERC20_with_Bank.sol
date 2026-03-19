@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-contract ERC20_with_Credentials{
+contract ERC20_with_Bank{
     string public name = "B_test Token";
     string public symbol = "BTOK";
     uint256 public totalSupply_;

@@ -9,7 +9,7 @@ describe("Bank test", function () {
     const Token = await token.deploy(1000);
     await Token.waitForDeployment();
 
-    const b_token = await ethers.getContractFactory("ERC20_with_Credentials");
+    const b_token = await ethers.getContractFactory("ERC20_with_Bank");
     const B_token = await b_token.deploy(0);
     await B_token.waitForDeployment();
 
